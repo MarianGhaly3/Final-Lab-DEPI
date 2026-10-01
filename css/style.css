@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+}
+.myanim {
+    /* animation: name duration timing-function delay iteration-count direction fill-mode;  */
+    animation: 2s;
+    animation-iteration-count: 3;
+    animation-delay: 4s;
+}
+
+p {
+  font-family: "Edu QLD Hand", cursive;
+  font-optical-sizing: auto;
+  font-size: 11px;
+  font-weight: 500 ;
+  font-style: normal;
+}
+
+    /* Default height for small devices */
+    #intro-example {
+      height: 400px;
+    }
+
+    /* Height for devices larger than 992px */
+    @media (min-width: 992px) {
+      #intro-example {
+        height: 600px;
+      }
+    }
